@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">InClass8_ExpenseApp</string>
+    <string name="current_expenses">Current Expenses:</string>
+    <string-array name="catergories">
+        <item>Groceries</item>
+        <item>Invoice</item>
+        <item>Transportation</item>
+        <item>Shopping</item>
+        <item>Rent</item>
+        <item>Trips</item>
+        <item>Utilities</item>
+        <item>Other</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_expense_tv">Add an Expense</string>
+    <string name="expenseName">Expense Name</string>
+    <string name="category_tv">Category</string>
+    <string name="Amount_tv">Amount</string>
+    <string name="AddExpense">Add Expense</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Expense_Details">Expense Details</string>
+    <string name="Name">Name</string>
+    <string name="Category">Category</string>
+    <string name="Amount">Amount</string>
+    <string name="Date">Date</string>
+    <string name="Close">Close</string>
+</resources>

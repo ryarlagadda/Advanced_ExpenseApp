@@ -1,0 +1,82 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.raviteja.inclass8_expenseapp.AddExpense">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_expense_tv"
+        android:id="@+id/add_expense"
+        android:layout_gravity="center_horizontal|top"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/expenseName_et"
+        android:layout_gravity="left|top"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/expenseName"
+        android:id="@+id/expensename_tv"
+        android:layout_gravity="left|top"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="5dp" />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerCategory"
+        tools:listitem="@android:layout/activity_list_item"
+        android:spinnerMode="dialog"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="150dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/category_tv"
+        android:id="@+id/category"
+        android:layout_gravity="left|top"
+        android:layout_marginTop="110dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/amount_et"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Amount_tv"
+        android:id="@+id/Amount"
+        android:layout_gravity="top|center_vertical"
+        android:layout_marginTop="195dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/AddExpense"
+        android:id="@+id/addExpenseButton"
+        android:layout_gravity="left"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="50dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Cancel"
+        android:id="@+id/cancelButton"
+        android:layout_gravity="right"
+        android:layout_marginTop="360dp"
+        android:layout_marginRight="50dp" />
+
+</FrameLayout>
